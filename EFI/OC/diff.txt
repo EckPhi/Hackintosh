@@ -1,0 +1,27 @@
+Checking for values missing from User plist:
+
+config-notWorking.plist -> Misc -> Debug - Missing Key: SerialInit
+config-notWorking.plist -> Misc -> Security - Missing Key: AllowNvramReset
+config-notWorking.plist -> Misc -> Security - Missing Key: AllowToggleSip
+config-notWorking.plist -> UEFI -> Audio - Missing Key: AudioOut
+config-notWorking.plist -> UEFI -> Audio - Missing Key: MinimumVolume
+config-notWorking.plist -> UEFI -> Audio - Missing Key: VolumeAmplifier
+
+Checking for values missing from Sample:
+
+config.plist -> Kernel -> Quirks - Missing Key: CustomPciSerialDevice
+config.plist -> Kernel -> Quirks - Missing Key: ForceAquantiaEthernet
+config.plist -> Misc - Missing Key: Serial
+config.plist -> Misc -> Debug - Missing Key: LogModules
+config.plist -> PlatformInfo - Missing Key: SMBIOS
+config.plist -> UEFI -> AppleInput - Missing Key: PointerPollMask
+config.plist -> UEFI -> AppleInput - Missing Key: PointerPollMin
+config.plist -> UEFI -> AppleInput - Missing Key: PointerPollMax
+config.plist -> UEFI -> Audio - Missing Key: AudioOutMask
+config.plist -> UEFI -> Audio - Missing Key: DisconnectHda
+config.plist -> UEFI -> Audio - Missing Key: MaximumGain
+config.plist -> UEFI -> Audio - Missing Key: MinimumAssistGain
+config.plist -> UEFI -> Audio - Missing Key: MinimumAudibleGain
+config.plist -> UEFI -> Output - Missing Key: ReconnectGraphicsOnConnect
+config.plist -> UEFI -> Output - Missing Key: UIScale
+config.plist -> UEFI -> Quirks - Missing Key: EnableVmx
